@@ -4,9 +4,7 @@ Basic Salary <= 20000 : HRA = 25%, DA = 90%
 Basic Salary > 20000 : HRA = 30%, DA = 95%*/
 
 let basicSalary = 20500;
-// let hra;
-// let da;
-
+let hra, da;
 
 if (basicSalary <= 10000) {
     hra = (20 / 100) * basicSalary;
