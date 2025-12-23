@@ -64,12 +64,6 @@ function copyArrayElements() {
   }
   console.log(`Source array: ${sourceArray}`);
   console.log(`Copied array (Loop): ${destinationArrayLoop}`);
-
-//   const destinationArraySpread = [...sourceArray];
-//   console.log(`Copied array (Spread): ${destinationArraySpread}`);
-
-//     const destinationArraySlice = sourceArray.slice();
-//   console.log(`Copied array (Slice): ${destinationArraySlice}`);
 }
 
 copyArrayElements();
@@ -106,4 +100,3 @@ const shoppingList = ['apple', 'banana', 'orange', 'apple', 'milk', 'banana'];
 const uniqueShoppingList = deleteDuplicateElements(shoppingList);
 console.log(`Original array: ${shoppingList}`);
 console.log(`Array without duplicates: ${uniqueShoppingList}`);
-
