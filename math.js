@@ -57,11 +57,11 @@ console.log(results);
 // 6. Write a program to generate a random OTP of 4 digits.
 
 function generateFourDigitOTP() {
-  // Generate a random number between 1000 and 9999 (inclusive)
+
   const min = 1000;
   const max = 9999;
   const otp = Math.floor(Math.random() * (max - min + 1)) + min;
-  return otp.toString(); // Return as a string for standard OTP representation
+
 }
 
 const otp = generateFourDigitOTP();
